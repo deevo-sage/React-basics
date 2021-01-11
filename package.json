@@ -1,0 +1,19 @@
+{
+  "name": "first-react",
+  "version": "1.0.0",
+  "description": "this is a basic react app",
+  "main": "src/app.js",
+   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+   
+  "author": "sidharth sahni",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1"
+  }
+}
