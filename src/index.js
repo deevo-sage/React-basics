@@ -9,7 +9,7 @@ class Appclass extends React.Component {
 
 const Appfunction = () => {
   return <h1>Hello World this is a functional component
-      <Appclass/
+      <Appclass/>
   </h1>;
 };
 
