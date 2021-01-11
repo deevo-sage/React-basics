@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-
+import Form from "./form";
 class Appclass extends React.Component {
   render() {
     return <h1>Hello World this is a class component</h1>;
@@ -8,9 +8,13 @@ class Appclass extends React.Component {
 }
 
 const Appfunction = () => {
-  return <h1>Hello World this is a functional component
-      <Appclass/>
-  </h1>;
+  return (
+    <>
+      <h1>Hello World this is a functional component</h1>
+      <Appclass />
+      <Form/> 
+    </>
+  );
 };
 
 render(<Appfunction />, document.getElementById("root"));
